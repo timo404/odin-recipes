@@ -4,6 +4,8 @@
 /*menu item container - includes all items*/
 .menu-item{
     display: flex;
+    max-width: 800px;
+    position: relative;
     border: 2px solid black;
 }
 /*Image style part*/
@@ -12,7 +14,7 @@
     height: 100px;
     position: relative;
     left: 10px;
-    top: 18px;
+    top: 7px;
     flex-shrink: 0;
     object-fit: cover;
     margin-right: 1.5em;
@@ -26,15 +28,26 @@
 .menu-item-heading {
     display: flex;
     justify-content: space-between;
-    margin: 0;
-  }
+    margin-top: 8px;
+}
 
   .menu-item-name {
+    position: relative;
     margin-right: 1.5em;
+    /* border: 2px solid black; */
+  }
+
+  .menu-item-number{
+    position: relative;
+    right: 38px;
+    font-size: large;
+    /* border: 2px solid blue; */
+    
   }
   
   .menu-item-desc {
     line-height: 1.6;
+    border: 2px solid blue;
   }
 
 
