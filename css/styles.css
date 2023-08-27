@@ -1,3 +1,40 @@
 *{
     box-sizing: border-box;
 }
+/*menu item container - includes all items*/
+.menu-item{
+    display: flex;
+    border: 2px solid black;
+}
+/*Image style part*/
+.menu-item-img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 10px;
+    top: 18px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+}
+
+/*Working with text part*/
+.menu-item-text{
+    flex-grow: 1;
+}
+
+.menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .menu-item-name {
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-desc {
+    line-height: 1.6;
+  }
+
+
