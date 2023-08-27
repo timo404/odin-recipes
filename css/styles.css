@@ -1,6 +1,8 @@
 *{
     box-sizing: border-box;
 }
+
+
 /*menu item container - includes all items*/
 .menu-item{
     font-family: Helvetica, Arial, sans-serif;
@@ -8,6 +10,7 @@
     max-width: 800px;
     min-height: 120px;
     position: relative;
+    margin-top: 20px;
 
     background-color: rgb(200, 225, 200);
     box-shadow: 10px 10px rgb(155, 185, 155);
