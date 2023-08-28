@@ -32,6 +32,7 @@
 /*Working with text part*/
 .menu-item-text{
     flex-grow: 1;
+    position: inherit;
 }
 
 .menu-item-heading {
@@ -48,7 +49,7 @@
 
   a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(14, 96, 172);
   }
 
   .menu-item-number{
