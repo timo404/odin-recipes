@@ -34,6 +34,7 @@ body {
 .menu-item {
     font-family: Helvetica, Arial, sans-serif;
     display: flex;
+    /* justify-content: center; */
     max-width: 800px;
     min-height: 120px;
     /* position: relative; */
@@ -44,9 +45,12 @@ body {
 
 
     background-color: rgb(200, 225, 200);
-    box-shadow: 7px 7px 24px rgb(73, 82, 212);
     border: 2px solid rgb(49, 46, 180);
 
+}
+
+.menu-item:hover{
+    box-shadow: 7px 7px 24px rgb(73, 82, 212);
 }
 
 /*Image style part*/
