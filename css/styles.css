@@ -7,11 +7,13 @@ body {
 
 }
 
+/* 
 .container {
-    /* margin: 0 auto; */
-    /* border: 3px solid black; */
-}
+    margin: 0 auto;
+    border: 3px solid black;
+} */
 
+/*h1 heading with "Odin Recipes*/
 .heading {
     /* font-family: 'Chewy', cursive; */
     font-family: "Source Sans Pro", "Poppins", sans-serif;
@@ -66,7 +68,6 @@ body {
 .menu-item-text {
     flex-grow: 1;
     position: inherit;
-
     /* align-items: center; */
 }
 
