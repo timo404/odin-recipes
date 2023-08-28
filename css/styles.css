@@ -1,22 +1,52 @@
-*{
+* {
     box-sizing: border-box;
 }
 
+body {
+    background-color: #ccc;
+
+}
+
+.container {
+    /* margin: 0 auto; */
+    /* border: 3px solid black; */
+}
+
+.heading {
+    /* font-family: 'Chewy', cursive; */
+    font-family: "Source Sans Pro", "Poppins", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-variant: small-caps;
+    text-align: center;
+    font-weight: 500;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+    /* text-shadow: 2px 2px rgb(15, 90, 170); */
+
+    padding-bottom: 20px;
+    border-bottom: 3px solid #333;
+}
 
 /*menu item container - includes all items*/
-.menu-item{
+.menu-item {
     font-family: Helvetica, Arial, sans-serif;
     display: flex;
     max-width: 800px;
     min-height: 120px;
-    position: relative;
-    margin-top: 20px;
+    /* position: relative; */
+    /* margin-bottom: 18px; */
+    /* align-content: center; */
+    /* align-items: center; */
+    margin: 18px auto;
+
 
     background-color: rgb(200, 225, 200);
-    box-shadow: 10px 10px rgb(155, 185, 155);
-    border: 2px solid rgb(48, 161, 26);
+    box-shadow: 7px 7px 24px rgb(73, 82, 212);
+    border: 2px solid rgb(49, 46, 180);
 
 }
+
 /*Image style part*/
 .menu-item-img {
     width: 100px;
@@ -27,12 +57,17 @@
     flex-shrink: 0;
     object-fit: cover;
     margin-right: 1.5em;
+
+    border: 2px solid green;
+    box-shadow: 5px 5px rgb(120, 175, 120);
 }
 
 /*Working with text part*/
-.menu-item-text{
+.menu-item-text {
     flex-grow: 1;
     position: inherit;
+
+    /* align-items: center; */
 }
 
 .menu-item-heading {
@@ -41,28 +76,26 @@
     margin-top: 8px;
 }
 
-  .menu-item-name {
+.menu-item-name {
     position: relative;
     margin-right: 1.5em;
     /* border: 2px solid black; */
-  }
+}
 
-  a{
+a {
     text-decoration: none;
     color: rgb(14, 96, 172);
-  }
+}
 
-  .menu-item-number{
+.menu-item-number {
     position: relative;
     right: 50px;
     font-size: large;
     /* border: 2px solid blue; */
-    
-  }
-  
-  .menu-item-desc {
+
+}
+
+.menu-item-desc {
     line-height: 1.6;
     border: 2px solid blue;
-  }
-
-
+}
