@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #ccc;
+    background-color: #ffffff;
 
 }
 
@@ -45,11 +45,12 @@ body {
 
 
     background-color: rgb(200, 225, 200);
-    border: 2px solid rgb(49, 46, 180);
+
 
 }
 
 .menu-item:hover{
+    /* border: 2px solid rgb(49, 46, 180); */
     box-shadow: 7px 7px 24px rgb(73, 82, 212);
 }
 
@@ -64,7 +65,7 @@ body {
     object-fit: cover;
     margin-right: 1.5em;
 
-    border: 2px solid green;
+    /* border: 2px solid green; */
     box-shadow: 5px 5px rgb(120, 175, 120);
 }
 
